@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Боголюбова Мария — веб-дизайнер</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Полноэкранный Хедер -->
+  <header class="header-full">
+    <div class="container header-full-container">
+      <div class="header-full-content">
+        <div class="header-full-name">Боголюбова Мария</div>
+        <div class="header-full-subtitle">веб-дизайнер</div>
+        <div class="header-full-desc">Создаю дизайн, который работает</div>
+        <a href="#about" class="header-full-btn">Узнать больше</a>
+      </div>
+    </div>
+    <nav class="nav-full">
+      <div class="container nav-full-container">
+        <div class="nav-logo">
+          <span class="nav-logo-name">Боголюбова М.</span>
+        </div>
+        <div class="nav-links">
+          <a href="#about">Обо мне</a>
+          <a href="#services">Услуги</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#stats">Статистика</a>
+          <a href="#contact" class="nav-phone">+7 (981) 121-94-51</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Обо мне -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title-left">Обо мне</h2>
+      <div class="about-wrapper">
+        <div class="about-image anim">
+          <img src="img/photo.jpg" alt="Фото Марии Боголюбовой">
+        </div>
+        <div class="about-content anim">
+          <h1>Мария Боголюбова</h1>
+          <p>Веб-дизайнер с душой и опытом</p>
+          <p>Привет! Я Мария, создаю эстетичные и функциональные цифровые продукты. Моя страсть — превращать идеи в визуальные истории, которые работают.</p>
+          <a href="#contact">Связаться</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги - Слайдер -->
+  <section id="services" class="section services-slider-section">
+    <div class="container">
+      <h2 class="section-title-left">Что я делаю</h2>
+      <p class="section-subtitle-left">Услуги, которые помогут вашему бренду выделиться</p>
+      
+      <div class="services-slider-container">
+        <div class="services-slider-wrapper">
+          <div class="services-slider-block">
+            <!-- Услуга 1: Буклеты -->
+            <div class="service-slide anim">
+              <div class="service-slide-image">
+                <img src="img/буклеты.jpg" alt="Разработка буклетов">
+              </div>
+              <div class="service-slide-content">
+                <h3>Разработка буклетов</h3>
+                <p>Информативные и стильные буклеты, которые расскажут о вашей компании, продукте или событии. От концепции до печати.</p>
+              </div>
+            </div>
+            
+            <!-- Услуга 2: Плакаты -->
+            <div class="service-slide anim">
+              <div class="service-slide-image">
+                <img src="img/плакаты.jpg" alt="Дизайн плакатов">
+              </div>
+              <div class="service-slide-content">
+                <h3>Дизайн плакатов</h3>
+                <p>Яркие, запоминающиеся плакаты для мероприятий, рекламных кампаний или интерьера. Индивидуальный подход к каждой задаче.</p>
+              </div>
+            </div>
+            
+            <!-- Услуга 3: Веб-дизайн -->
+            <div class="service-slide anim">
+              <div class="service-slide-image">
+                <img src="img/мокап ноут итог.jpg" alt="Веб-дизайн">
+              </div>
+              <div class="service-slide-content">
+                <h3>Веб-дизайн</h3>
+                <p>Сайты, лендинги, интерфейсы. Продуманная структура, удобство и визуальная гармония для вашего бизнеса.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="services-slider-controls">
+          <button class="services-button-prev">❮</button>
+          <button class="services-button-next">❯</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section id="reviews" class="section reviews-section">
+    <div class="container">
+      <h2 class="section-title-left">Отзывы клиентов</h2>
+      <p class="section-subtitle-left">Что говорят обо мне мои заказчики</p>
+      
+      <div class="slider-container">
+        <div class="slider-wrapper">
+          <div class="slider-block">
+            <div class="slide anim">
+              <div class="review-card">
+                <div class="review-text">"Мария создала для нас потрясающий буклет. Работа выполнена профессионально, в срок и с душой. Рекомендую!"</div>
+                <div class="review-author">— Анна Петрова, CEO "Creative Studio"</div>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            
+            <div class="slide anim">
+              <div class="review-card">
+                <div class="review-text">"Дизайн плакатов превзошел все ожидания. Мария учла все наши пожелания и предложила отличные решения. Будем сотрудничать дальше!"</div>
+                <div class="review-author">— Иван Соколов, "Event Group"</div>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            
+            <div class="slide anim">
+              <div class="review-card">
+                <div class="review-text">"Сайт для нашего стартапа получился современным и удобным. Мария — настоящий профессионал, который чувствует тренды."</div>
+                <div class="review-author">— Елена Козлова, "TechStart"</div>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+            
+            <div class="slide anim">
+              <div class="review-card">
+                <div class="review-text">"Очень понравился подход к работе. Мария всегда на связи, быстро вносит правки. Результатом довольны на 100%!"</div>
+                <div class="review-author">— Михаил Воронин, "PrintDesign"</div>
+                <div class="review-stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slider-controls">
+          <button class="button-prev">❮</button>
+          <button class="button-next">❯</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Статистика -->
+  <section id="stats" class="section stats-section">
+    <div class="container">
+      <h2 class="section-title-left" style="color: #ffffff;">Цифры, которые говорят за меня</h2>
+      <p class="section-subtitle-left" style="color: #e8c9b0;">Немного статистики о моей работе</p>
+      
+      <div class="stats-grid">
+        <div class="stat-item anim">
+          <div class="stat-number" data-count="47">0</div>
+          <div class="stat-label">Выполненных проектов</div>
+        </div>
+        
+        <div class="stat-item anim">
+          <div class="stat-number" data-count="42">0</div>
+          <div class="stat-label">Довольных клиентов</div>
+        </div>
+        
+        <div class="stat-item anim">
+          <div class="stat-number" data-count="3">0</div>
+          <div class="stat-label">Года опыта</div>
+        </div>
+        
+        <div class="stat-item anim">
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-label">Наград и сертификатов</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-name">Боголюбова Мария</div>
+      <div class="footer-subtitle">веб-дизайнер</div>
+      
+      <div class="contacts">
+        <a href="tel:+79811219451">+7 (981) 121-94-51</a>
+      </div>
+      
+      <div class="copy">© 2026 Боголюбова Мария. Все права защищены.</div>
+    </div>
+  </footer>
+
+  <!-- Подключаем JS -->
+  <script src="index.js"></script>
+</body>
+</html>
